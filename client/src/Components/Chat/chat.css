@@ -1,0 +1,123 @@
+@media screen and (max-width: 600px) {
+    .message{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        width: 100%;
+        height: 100%;
+    }
+    .message_body{
+        width: 100%;
+        height:500px;
+    }
+  
+    .message_footer{
+        width: 100%;
+        height: 30px;
+        margin-bottom:50px;
+    }
+    #you .message_content h6{
+        padding: 10px;
+        font-size: 25px;
+        word-break: break-all;
+    }
+    #other .message_content h6{
+        padding: 10px;
+        font-size: 25px;
+        word-break: break-all;
+    }
+
+}
+@media screen and (min-width:600px) {
+    .message_body{
+        height:400px ;
+        margin-top: 10px;
+    }
+}
+
+.main{
+    width: 100%;
+    height: 510px;
+    align-self: center;
+    box-shadow: 2px 2px 7px 2px  #a6a6a6;
+    border-radius:10px 10px 0px 0px  ;  
+}
+.message{
+    
+    align-self: center;
+    box-shadow: 2px 2px 7px 2px  #a6a6a6;
+    border-radius:10px 10px 0px 0px  ;  
+}
+.message_header{
+    height: 50px;
+    border-radius:10px 10px 0px 0px  ;
+    background-color: #0073e6;
+    color: #f2f2f2;
+    padding: 5px ;
+}
+
+.message_body .scroll{
+width: 100%;
+height: 100%;
+
+}
+.message_footer{
+    display: flex;
+    height: 50px;
+}
+.message_footer button{
+    background-color:#0073e6;
+    color: white;
+    border: 0px;
+    font-size:20px;
+    padding:3px 15px;
+}
+.message_footer input{
+    border-radius: 0px ;
+}
+
+
+#you{
+    display: flex;
+    justify-content: flex-start;
+}
+#you .message_content{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    max-width: 60%; 
+    margin-left: 9px;
+}
+#you .message_content h6{
+    background-color: #66b3ff;
+    border-radius: 0px 5px 5px 5px;
+    color: #ffffff  ;
+    padding: 10px;
+    word-break: break-all;
+}
+#you .message_content p{
+    font-size: 10px;
+}
+
+#other{
+    display: flex;
+    justify-content: flex-end;
+}
+#other .message_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;  
+    align-items: flex-end;
+    max-width: 60%; 
+    margin-right: 9px;
+}
+#other .message_content h6{
+    background-color: #ff6666;
+    border-radius: 5px 0px 5px 5px;
+    color: #ffffff  ;
+    padding: 10px;
+    word-break: break-all;
+}
+#other .message_content p{
+    font-size: 10px;
+}
